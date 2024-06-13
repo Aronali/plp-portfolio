@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.section-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    background-color: #100236;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Introduction Section Styles */
+.introduction {
+    background-color: #d0d0d0;
+}
+
+.introduction p {
+    margin: 10px 0;
+}
+
+/* Skills Section Styles */
+.skills {
+    background-color: #d0d0d0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    border: 1px solid #100236;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #100236;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #d0d0d0;
+    color: #100236;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #424242;
+    text-decoration: none;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .section-container {
+        margin: 10px;
+    }
+}
